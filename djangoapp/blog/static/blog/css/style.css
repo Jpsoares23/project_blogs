@@ -1,3 +1,7 @@
-body{
-    background-color: red;
+:root {
+  --clr-white: 213 100% 98%;
+}
+
+body {
+  background-color: hsl(var(--clr-white));
 }
